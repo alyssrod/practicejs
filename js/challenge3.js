@@ -1,4 +1,6 @@
-var standing = null
+function challenge3(){
+
+    var standing = null
 
     var grad_date = null
 
@@ -17,4 +19,5 @@ var standing = null
         return false
 
     }
+
 }
