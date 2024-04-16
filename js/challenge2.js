@@ -1,4 +1,6 @@
-let bill = document.querySelector('#bill')
+function challenge2(){
+
+   let bill = document.querySelector('#bill')
 
    let home = document.querySelector('#home')
 
