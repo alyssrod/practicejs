@@ -1,19 +1,9 @@
 function challenge1(){
-
- 
-
-    if(document.getElementById('subscribe').checked == true){
-
+    var emailDiv = document.querySelector('#emailDiv');
+    if(document.getElementById('subscribe').checked){
         alert('hello world');
-
-        document.querySelector('#emailDiv').style.display="block";
-
+        if(emailDiv) emailDiv.style.display = "block";
+    } else {
+        if(emailDiv) emailDiv.style.display = "none";
     }
-
-    else{
-
-        document.querySelector('#emailDiv').style.display="none";
-
-    }
-
 }
