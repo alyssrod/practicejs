@@ -1,4 +1,8 @@
- if(document.getElementById('subscribe').checked == true){
+function challenge1(){
+
+ 
+
+    if(document.getElementById('subscribe').checked == true){
 
         alert('hello world');
 
